@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvey-Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="main-div">
+        <form>
+            <h1 id="form-heading">Lok Sabha Elections Survey Form</h1>
+            <P id="note-label"><b>Note:</b> Form is to be completed at least 21 days prior to date.</P>
+
+            <div class="div-layout">
+                <h4 id="div-heading-details">Personal Details</h4>
+                <br>
+                <label for="name" class="details">Name:</label>
+                <input id="name" class="details" type="text" placeholder="Enter name here" required />
+                <br>
+                <lable for="address" class="details">Address:</lable>
+                <input id="address" class="details" type="text" placeholder="Enter address here" required />
+                <br>
+                <lable for="email" class="details">Email:</lable>
+                <input id="email" class="details" type="email" placeholder="Enter email here" required />
+                <br>
+                <lable for="phone" class="details">Phone Number:</lable>
+                <input id="phone" class="details" type="number" maxlength="10" placeholder="Enter 10 digit number"
+                    required />
+                <br>
+                <lable for="gender" class="details">Gender</lable><br><br>
+                <input id="gender" type="radio" name="gender" value="Male" checked />
+                <label>Male</label><br>
+                <input id="gender" type="radio" name="gender" value="Female" />
+                <label>Female</label><br>
+                <input id="gender" type="radio" name="gender" value="Other" />
+                <label>Other</label><br>
+                <br>
+                <label for="dob" class="details">Date Of Birth:</label>
+                <input id="dob" class="details" type="date" required />
+
+            </div>
+
+            <div class="div-layout">
+                <h4 id="div-heading-check-all">Check All That Apply</h4><br>
+                <input type="checkbox" class="details" checked>
+                <label class="details">Indian Citizen </label>
+                <br>
+                <input type="checkbox" class="details">
+                <label class="details">Above 18 years old</label><br>
+                <label class="details">Upload Police Clearance Certificate and Medical Certifiates here:</label>
+                <input class="details" type="file" name="Attach Files" value="Attach Files" />
+            </div>
+            <input id="button" type="button" name="Submit Sarvey" value="Submit Sarvey" />
+
+        </form>
+    </div>
+</body>
+
+</html>

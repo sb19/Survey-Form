@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto";
+  /* background-color: blanchedalmond; */
+}
+
+.main-div {
+  margin-left: 25%;
+  box-shadow: 0px 0px 3px gray;
+  width: 60%;
+  border-radius: 2%;
+}
+form {
+  padding: 0.5%;
+}
+#form-heading {
+  padding: 1%;
+  margin-left: 20%;
+  border-radius: 10px;
+  background-color: rgb(97, 97, 212);
+  color: white;
+  width: 60%;
+}
+
+#note-label {
+  margin-left: 1%;
+  margin-bottom: 4%;
+}
+
+.div-layout {
+  border: 1px solid lightgray;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 2%;
+}
+
+#div-heading-details {
+  margin-top: -3.5%;
+  background-color: white;
+  width: 16%;
+  margin-bottom: 0%;
+}
+
+.details {
+  margin-bottom: 2%;
+  /* margin-top: 1%;    */
+}
+
+#div-heading-check-all {
+  margin-top: -3.5%;
+  background-color: white;
+  width: 21%;
+  margin-bottom: 0%;
+}
+
+#button {
+  margin-left: 40%;
+  margin-bottom: 2%;
+  background-color: rgb(97, 97, 212);
+  color: white;
+  border-radius: 10px;
+  height: 25px;
+}
